@@ -11,8 +11,6 @@ body {
   position: relative;
 }
 
-/* Global CSS */
-
 h1 {
   font-size: 3rem;
   font-weight: 600;
@@ -303,7 +301,7 @@ header {
   content: "";
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
-  background-color: rgba(0, 0, 0, 0.4); /* Dark overlay */
+  background-color: rgba(0, 0, 0, 0.4); 
   z-index: -1;
 }
 
@@ -564,12 +562,10 @@ header {
   object-fit: contain;
 }
 
-/* Top row moves left to right */
 .left-to-right .logo-strip {
   animation: scrollLTR 40s linear infinite;
 }
 
-/* Bottom row moves right to left */
 .right-to-left .logo-strip {
   animation: scrollRTL 40s linear infinite;
 }
